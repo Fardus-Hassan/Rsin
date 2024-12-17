@@ -56,7 +56,7 @@ const Navber = () => {
 
         {/* Mobile Menu */}
         {menuOpen && (
-          <div className='xl:hidden mt-4'>
+          <div className='xl:hidden mt-4 absolute bg-white bg-opacity-90 w-full pb-5'>
             <ul className='flex flex-col items-center gap-5'>
               <li>Home</li>
               <li>For Business</li>

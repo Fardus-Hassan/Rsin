@@ -4,10 +4,18 @@ import img3 from '../assets/Frame 48095936.png';
 import img4 from '../assets/Frame 48095937.png';
 import img5 from '../assets/Frame.png';
 import img6 from '../assets/Shape.png';
+import img7 from '../assets/Arrow 1.png';
+import img8 from '../assets/svgexport-1 1.png';
+import img9 from '../assets/Group 2.png';
+import img10 from '../assets/Vector.png';
+import img11 from '../assets/saudi-tv-ekhbaria-channle-logo-1EFB27C7DC-seeklogo.com 1.png';
+import img12 from '../assets/Vector (1).png';
+import img13 from '../assets/Vector (2).png';
+import Marquee from 'react-fast-marquee';
 
 const Banner = () => {
     return (
-        <div className='max-w-[1440px] w-[95%] mx-auto'>
+        <div className='max-w-[1440px] w-[95%] mx-auto mb-10'>
             <div className='flex flex-col xl:flex-row justify-between items-center gap-10 py-[60px] lg:py-[120px]'>
                 <div className='flex items-center lg:items-start mb-8 lg:mb-0 gap-4'>
                     <div className='flex flex-col justify-end'>
@@ -48,6 +56,29 @@ const Banner = () => {
                         </div>
                     </div>
                 </div>
+            </div>
+            <h3 className='text-[#7D89B0]'>Feature in Trusted by <span><img className='inline ml-1' src={img7} alt="" /></span></h3>
+            <div className="mt-10">
+                <Marquee gradient={false} speed={50}>
+                    <div className='lg:px-16 sm:px-10 px-5'>
+                        <img src={img8} alt="Image 8" style={{ margin: '0 20px', width: '100px' }} />
+                    </div>
+                    <div className='lg:px-16 sm:px-10 px-5'>
+                        <img src={img9} alt="Image 8" style={{ margin: '0 20px', width: '100px' }} />
+                    </div>
+                    <div className='lg:px-16 sm:px-10 px-5'>
+                        <img src={img10} alt="Image 8" style={{ margin: '0 20px', width: '100px' }} />
+                    </div>
+                    <div className='lg:px-16 sm:px-10 px-5'>
+                        <img src={img11} alt="Image 8" style={{ margin: '0 20px', width: '100px' }} />
+                    </div>
+                    <div className='lg:px-16 sm:px-10 px-5'>
+                        <img src={img12} alt="Image 8" style={{ margin: '0 20px', width: '100px' }} />
+                    </div>
+                    <div className='lg:px-16 sm:px-10 px-5'>
+                        <img src={img13} alt="Image 8" style={{ margin: '0 20px', width: '100px' }} />
+                    </div>
+                </Marquee>
             </div>
         </div>
     );

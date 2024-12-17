@@ -15,9 +15,10 @@ import Marquee from 'react-fast-marquee';
 
 const Banner = () => {
     return (
-        <div className='max-w-[1440px] w-[95%] mx-auto mb-10'>
+        <div className='bg-white'>
+            <div className='max-w-[1440px] w-[95%] mx-auto pb-10'>
             <div className='flex flex-col xl:flex-row justify-between items-center gap-10 py-[60px] lg:py-[120px]'>
-                <div className='flex items-center lg:items-start mb-8 lg:mb-0 gap-4'>
+                <div className='flex items-center lg:items-start mb-8 lg:mb-0 sm:gap-0 gap-4'>
                     <div className='flex flex-col justify-end'>
                         <div className=''>
                             <img className='' src={img1} alt="" />
@@ -80,6 +81,7 @@ const Banner = () => {
                     </div>
                 </Marquee>
             </div>
+        </div>
         </div>
     );
 };

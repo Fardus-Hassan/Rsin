@@ -8,7 +8,7 @@ const Navber = () => {
   const [menuOpen, setMenuOpen] = useState(false);
 
   return (
-    <div className='shadow-sm py-5'>
+    <div className='py-5 bg-white border-b'>
       <div className='max-w-[1440px] w-[95%] mx-auto'>
         <nav className='flex justify-between items-center'>
           {/* Logo */}
@@ -19,7 +19,7 @@ const Navber = () => {
           {/* Menu Items */}
           <div className='flex-grow px-10'>
             <ul
-              className={`justify-center items-center gap-10 xl:flex hidden ${
+              className={`justify-center items-center gap-10 ml-10 xl:flex hidden ${
                 menuOpen ? 'block' : 'hidden'
               } xl:block`}
             >

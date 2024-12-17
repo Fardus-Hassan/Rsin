@@ -11,6 +11,9 @@ export default {
         secondary: '#4da0e4',
         accent: '#ffcc00',
       },
+      fontFamily: {
+        sans: ['Work Sans', 'sans-serif'], // Add Work Sans as the primary font
+      },
     },
   },
   plugins: [],

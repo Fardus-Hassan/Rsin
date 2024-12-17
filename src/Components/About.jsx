@@ -9,7 +9,7 @@ import img5 from '../assets/icon (3).png'
 const About = () => {
     return (
         <div className='max-w-[1440px] w-[95%] mx-auto py-[80px] md:py-[120px] lg:flex items-center gap-5'>
-            <div className='lg:w-[710px] h-[915px] rounded-2xl bg-white relative'>
+            <div className='lg:w-[710px] h-[900px] rounded-2xl bg-white relative'>
                 <img className='absolute right-5 top-5' src={bk} alt="" />
                 <div className='absolute z-10 p-7 top-[50%] translate-y-[-50%]'>
                     <h3 className='text-[20px] text-[#21763F]'>Abour Us</h3>

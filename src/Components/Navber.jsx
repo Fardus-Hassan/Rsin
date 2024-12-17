@@ -8,7 +8,7 @@ const Navber = () => {
   const [menuOpen, setMenuOpen] = useState(false);
 
   return (
-    <div className='shadow-sm xl:py-7 py-5'>
+    <div className='shadow-sm py-5'>
       <div className='max-w-[1440px] w-[95%] mx-auto'>
         <nav className='flex justify-between items-center'>
           {/* Logo */}
@@ -35,7 +35,7 @@ const Navber = () => {
 
           {/* Buttons */}
           <div className='flex justify-between items-center'>
-            <button className='font-medium text-primary mr-10 hidden xl:block'>
+            <button className='font-semibold text-primary mr-10 hidden xl:block'>
               Log In
             </button>
             <button className='bg-primary text-white xl:px-8 px-6 py-4 rounded-[42px] hidden xl:block'>
@@ -66,10 +66,10 @@ const Navber = () => {
                 Others <span><img className='mt-2' src={arrow} alt="" /></span>
               </li>
               <div className='mt-4'>
-                <button className='font-medium text-primary mr-8'>
+                <button className='font-medium text-primary mr-4'>
                   Log In
                 </button>
-                <button className='bg-primary text-white px-6 py-3 rounded-[42px]'>
+                <button className='bg-primary text-white px-6 py-3 ml-4 rounded-[42px]'>
                   Apply Now
                 </button>
               </div>
